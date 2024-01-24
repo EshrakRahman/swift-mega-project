@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be8883e1-6f66-4cd3-8864-a07325ae714d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Swipe mega project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Swipe mega project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -52,7 +49,8 @@
       <updated>1697207875551</updated>
       <workItem from="1697207876692" duration="4591000" />
       <workItem from="1697566819761" duration="4975000" />
-      <workItem from="1698842677986" duration="2624000" />
+      <workItem from="1698842677986" duration="4527000" />
+      <workItem from="1706124883326" duration="2291000" />
     </task>
     <servers />
   </component>

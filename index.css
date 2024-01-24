@@ -244,6 +244,7 @@ p {
     transform: translateX(5px);
 }
 
+
 /* Menu */
 .navbar {
     display: flex;
@@ -262,7 +263,7 @@ p {
 }
 
 .menu a {
-    color: var(--text-light);
+    /*color: var(--text-light);*/
     margin: 0 var(--spacing-md);
     font-weight: bold;
 }
@@ -280,6 +281,7 @@ p {
 /* Hero styles*/
 main {
     margin: var(--spacing-xl) 0;
+    width: 100%;
 }
 .button-container {
     display: flex;
@@ -291,7 +293,11 @@ main {
     margin: 0 0 0 var(--spacing-md);
     color: var(--purple-2);
 }
-
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .hero p {
     max-width: 480px;
 }
@@ -308,7 +314,11 @@ main {
 }
 
 /* Partner section*/
-
+.partners-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .partners-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -326,6 +336,9 @@ main {
 /* Unified platform*/
 .unified-platform {
     padding: var(--spacing-xl) 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .unified-platform h2 {
     width: 50%;
@@ -341,7 +354,11 @@ main {
 }
 
 /* graphic grid */
-
+.graphic-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .graphic-grid {
     display: grid;
     grid-template-areas:
@@ -383,6 +400,9 @@ main {
 .integrations-section {
     color: var(--text-light);
     background-color: var(--primary-accent);
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .integrations-section .primary-button {
@@ -419,4 +439,62 @@ main {
 #terminal-code {
     max-width: 470px;
     border-radius: 20px;
+}
+
+/* Why swipe section */
+.why-swipe-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.why-swipe-section .card-container {
+    display: flex;
+    margin: 0 var(--spacing-lg) 0 0;
+}
+
+.why-swipe-section .card-container .card {
+    width: 25%;
+    padding: 0 var(--spacing-sm) 0 0;
+    margin: 0 var(--spacing-md) 0 0;
+    box-sizing: border-box;
+}
+
+.why-swipe-section .secondary-text {
+    color: var(--text-dark);
+}
+
+/* Global section */
+.global-section {
+    background-color: var(--primary-accent);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--text-light);
+
+}
+
+.global-section a {
+    color: var(--bule-1);
+}
+.global-section a:hover {
+    color: var(--text-gray);
+}
+
+.global-section .card-container {
+    display: flex;
+    margin: calc(var(--spacing-xl) * 2) 0;
+    /*justify-content: space-between;*/
+}
+
+.global-section .card-container .card {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 var(--spacing-sm) 0 0;
+    margin: 0 var(--spacing-md) 0 0;
+}
+
+.global-section .card-container .card h3 {
+    border-left: 2px solid var(--bule-1);
+    padding: 0 0 0 var(--spacing-md);
+    line-height: 28px;
 }
